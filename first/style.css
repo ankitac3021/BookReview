@@ -1,0 +1,74 @@
+body {
+   margin: 0;
+   padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2)),url('oldbook.jpg');
+    height: 100vh; /*vh=view port .....every system have diff view port*/
+    background-size: cover;
+    background-position: center;
+}
+
+.a1 {
+    margin-top: 2%;;
+    margin-left: 35%;
+}
+button {
+    margin:2%;
+    margin-left:20%;
+    size:15%;
+    background-color: brown;
+}
+
+header{
+    color:bisque;
+    border: 2px solid goldenrod;
+    margin-left: 39%;
+    padding-left: 30%;
+    text-decoration: aliceblue;
+    margin-bottom: 5%;
+}
+
+tr {
+    padding:25%;
+}
+
+td {
+    padding:25px;
+        margin-left: 5%;
+        margin-top: 5%;
+}
+footer {
+    color:bisque;
+    border: 2px solid goldenrod;
+    margin-left: 39%;
+    padding-left: 40%;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+summary {
+    color:bisque
+}
+h2 {
+    color: bisque;
+
+}
+
+h3 {
+    color: goldenrod;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#bck {
+    margin-left: 80%;
+    background-color: brown;
+}
+#sub {
+    margin-left: 2%;
+}
+
+#one1 {
+    color:darkred;
+    margin-left: 0%;
+    padding-left: 88%;
+    margin-bottom: 10%;
+}
+

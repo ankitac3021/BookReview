@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
+            <link rel="stylesheet" href="style.css">
+        <title class="bg">
                 The Login Page
-        </title>
-        <style>
-
-
-            body {
-                background-color: burlywood;
-            }
-            header {
-                margin-top: 5%;
-                color: brown;
-            }
-            .a1 {
-                margin-top: 5%;;
-                margin-left: 35%;
-            }
-            button {
-                margin:2%;
-                margin-left:15%;
-                size:15%;
-                background-color: brown;
-            }
-        </style>
+        </title>       
+        
     </head>
-    <body>
 
-        <header align="center"> <h1> <form size="7">The Login Form</form> </h1></header>
+    <body>
+      <h1> <form style="color:brown;margin-left: 37%; margin-top: 8%" size="19">Welcome to The Review Times</form> </h1>
+      <h1 style="margin-left: 45%;margin-top: 4%; color: bisque"> <form id="two" size="7">Login Here</form> </h1>
+      
+      <form method="POST" action="./start.html">
         <div class="a1">
-            <table>
+            <table style="outline: darkred 3px">
             <tr>
-           <td> <h2>Enter Username</h2></td> <td> <input type="text" required></td>
+           <td> <h2 style="color:bisque">Enter Username</h2></td> <td> <input type="text" required></td>
           </tr>
           <tr>
-            <td><h2>Enter Password</h2> </td> <td> <input type="password" pattern="[0-9]4+" required ></td>
+            <td><h2 style="color:bisque">Enter Password</h2> </td> <td> <input type="password" pattern="[0-9]{4,}" required ></td>
         </tr>
     </table>
-            <form method="POST" action="./start.html">
+            
                 <button type="submit"> <font size="4"> Submit </font></button>
                 </form>
             
             </div>
+
+            <br><br><br><br>
+
+            <footer id="one1">
+                    <details>
+                        <summary><font size="5">About Developer</font></summary>
+                        <p>Name: Ankita Chatterjee</p>
+                        <p>Email-id: ankita.chatterjee@india.nec.com</p>
+                    </details>
+                </footer>  
+                
+                
     </body>
 </html>
