@@ -1,10 +1,15 @@
 /*
- * This is a JavaScript Scratchpad.
- *
- * Enter some JavaScript, then Right Click or choose from the Execute Menu:
- * 1. Run to evaluate the selected text (Ctrl+R),
- * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
- * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
+ Circular Number
+ The unit place of the orignal number is multiplied with the orignal number.The unit place 
+ now becomes the highest place of the new number and the rest of the number remains same. 
+ Then it is circular.
+ eg:              102564
+                      X4
+              ---------------
+                  410256
+              ---------------
+              unit=4 becomes highest and rest 102564 remains same
+  eg: 11111 is also circular 
  */
 
 var count;
